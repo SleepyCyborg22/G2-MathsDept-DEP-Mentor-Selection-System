@@ -1,0 +1,57 @@
+body {
+  background-color: #555555;
+  color: #ededed;
+  overflow: hidden;
+}
+.title {
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }
+.navbar-brand,h1 {
+  color: #da0037;
+}
+nav {
+  color: #ffffff;
+}
+.loading-bar {
+  height:5px; 
+  width:20%;
+  border-radius:5px;
+  background-color: #da0037;
+  animation: load 10s linear infinite;
+}
+@keyframes load {
+  0% {
+    width:0%;
+  }
+  10% {
+    width:5%;
+  }
+  20% {
+    width:10%;
+  }
+  30% {
+    width:15%;
+  }
+  40% {
+    width:20%;
+  }
+  50% {
+    width:25%;
+  }
+  60% {
+    width:30%;
+  }
+  70% {
+    width:35%;
+  }
+  80% {
+    width:40%;
+  }
+  90% {
+    width:45%;
+  }
+  100% {
+    width:50%;
+  }
+}
